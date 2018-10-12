@@ -10,8 +10,10 @@ public class babylab {
         whattosay= input.nextLine();
         System.out.println("How many time should I say it");
         numtimes=input.nextInt();
-        for(int i=0;i<numtimes;i++){
-            System.out.println(whattosay);
+         if(numtimes<8) {
+            for (int i = 0; i < numtimes; i++) {
+                System.out.println(whattosay);
+            }
         }
     }
 }
